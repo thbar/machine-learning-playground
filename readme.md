@@ -1,3 +1,7 @@
+In this repo, I'm adding various tooling and tests around statistics & machine learning.
+
+[![Build Status](https://travis-ci.org/thbar/machine-learning-playground.svg?branch=master)](https://travis-ci.org/thbar/machine-learning-playground)
+
 ## How to install Octave
 
 ```
@@ -21,4 +25,5 @@ $ apm install language-matlab-octave
 
 ## Useful links
 
-* https://github.com/MOxUnit/MOxUnit/blob/master/.travis.yml
+* [Coursera Stanford machine learning course](https://www.coursera.org/learn/machine-learning)
+* [MOxUnit travis configuration](https://github.com/MOxUnit/MOxUnit/blob/master/.travis.yml)
