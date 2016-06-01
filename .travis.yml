@@ -13,7 +13,7 @@ matrix:
           packages:
             - octave
             - liboctave-dev
-    - env: OCT_PPA=yes
+    # - env: OCT_PPA=yes
 
 install:
   - export
