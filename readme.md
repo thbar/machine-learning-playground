@@ -41,3 +41,27 @@ $ apm install language-matlab-octave
 
 * [Coursera Stanford machine learning course](https://www.coursera.org/learn/machine-learning)
 * [MOxUnit travis configuration](https://github.com/MOxUnit/MOxUnit/blob/master/.travis.yml)
+
+## Common octave commands
+
+```
+PS1('>> ');                           % change prompt
+a = 3;                                % semicolon supressing output
+disp(sprintf('2 decimals: %0.2f', a)) % formatting
+format long
+format short
+
+A = [1 2; 3 4; 5 6]                   % 3x2 matrix - ";" means new row
+v = [1; 2; 3;]
+v = 1:0.1:2                           %
+v = 1:6
+ones(2,3)                             
+zeroes(2,3)
+eye(3)
+rand(3,3)                             % 3x3 rand matrix with uniform distribution
+randn(1,3)                            % gaussian distribution
+w = -6 + sqrt(10) * randn(1,10000)
+hist(w)
+hist(w,50)
+help(eye)
+```
