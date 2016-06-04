@@ -8,6 +8,20 @@ In this repo, I'm adding various tooling and tests around statistics & machine l
 $ brew install octave
 ```
 
+## How to fix "WARNING: Plotting with an 'unknown' terminal"
+
+```
+$ brew uninstall --force gnuplot
+$ brew install gnuplot --with-x11
+```
+
+Then in octave:
+
+```
+$ setenv("GNUTERM","X11")
+$ hist(randn(1,10000))           % should show an histogram
+```
+
 ## Installing MOxUnit for unit testing
 
 ```
