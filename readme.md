@@ -8,6 +8,13 @@ In this repo, I'm adding various tooling and tests around statistics & machine l
 $ brew install octave
 ```
 
+Work-around to get a working install of octave 4.0.2:
+
+```
+$ brew reinstall octave --build-from-source
+$ brew reinstall qrupdate --build-from-source
+```
+
 ## How to fix "WARNING: Plotting with an 'unknown' terminal"
 
 ```
