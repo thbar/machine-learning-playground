@@ -38,6 +38,13 @@ $ make install
 $ cat ~/.octaverc
 ```
 
+## How to run unit tests automatically on file save
+
+```
+$ brew install entr
+$ ls *.m | entr ./run_tests.sh 
+```
+
 ## How to install language support for atom
 
 ```
